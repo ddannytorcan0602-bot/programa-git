@@ -1,0 +1,174 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Fondo de toda la página */
+body {
+    background-color: #def4fc; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Contenedor principal */
+.login-container {
+  text-align: center;
+   
+}
+
+
+/* Títulos */
+.titulo {
+    text-align: center;
+    color: #0f2469;
+    font-weight: bold;
+    margin-top: 5px;      
+    margin-bottom: 20px;   
+    font-size: 2rem;
+}
+
+.linea {
+  display: block;
+  height: 4px;
+  background-color: #0e6ba8;
+  width: calc(100vw - 150px); 
+  margin: 0 auto;
+  border: none;
+  border-radius: 9999px;
+}
+
+
+.subtitulo {
+    text-align: center;
+    color: #0f2469;
+    margin-top: 20px;           
+    font-weight: 600;
+}
+
+
+/* Caja del login */
+.login-box {
+    background-image: url('img/fondologin.png'); 
+    background-size: cover;
+    background-position: center;
+    padding: 30px 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    width: 300px;
+    margin: 0 auto;
+}
+
+/* Logo */
+.logo {
+    width: 120px;
+    margin-bottom: 15px;
+}
+
+/* Inputs y select */
+input, select {
+    width: 90%;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 50px;
+    background-color: #0f2469;
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+/* Placeholder en blanco */
+::placeholder {
+    color: #ffffff;
+}
+
+/* Botón ingresar */
+button {
+    width: 50%;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(to bottom, #0f2469 0%, #000000 90%);
+    color: #ffffff;
+    font-size: 1.02rem;
+    font-weight: 900;  
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+    margin-top: 10px;
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+button:active {
+  transform: scale(0.97);
+}
+
+/* Opciones */
+.options {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  gap: 10px; 
+  margin-top: 15px;
+}
+
+.options label {
+  display: inline-flex;
+  align-items: center; 
+  gap: 10px; 
+  font-size: 0.9rem;
+  color: #000000;
+  white-space: nowrap; 
+  margin-left: -21px; 
+}
+
+.options input[type="checkbox"] {
+  transform: translateY(7px);
+}
+
+.options a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 0.9rem;
+}
+
+.options a:hover {
+  text-decoration: underline;
+}
+
+
+.input-group {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 12px;
+}
+
+.input-group i {
+  font-size: 1.2rem;
+  color: #000000;
+  margin-right: 10px;
+}
+
+.input-group input,
+.input-group select {
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 1rem;
+}
+
+
+
+
+

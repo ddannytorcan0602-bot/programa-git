@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio de Sesión - DH El Mello</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="login-container">
+        <h1 class="titulo">WELCOME!</h1>
+        <hr class="linea">
+        <h2 class="subtitulo">Iniciar Sesión</h2>
+
+        <div class="login-box">
+            <img src="img/logo.png" alt="LOGO DISTRIBUIDORA DE HELADOS EL MELLO" class="logo">
+
+            <select id="rol">
+                <option value="" disabled selected>Rol</option>
+                <option value="admin">Administrador</option>
+                <option value="empleado">Empleado</option>
+            </select>
+
+            <input type="text" id="usuario" placeholder="Usuario">
+
+            <input type="password" id="contrasena" placeholder="Contraseña">
+            
+            <button id="ingresar">Ingresar</button>
+
+            <div class="options">
+                <label><input type="checkbox" id="recordar"> Recordar contraseña</label>
+                <a href="#" id="olvidar">Olvidé mi contraseña</a>
+                <a href="#" id="registrarme">Registrarme</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
